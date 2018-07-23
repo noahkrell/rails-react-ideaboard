@@ -8,10 +8,21 @@ Clone repo and install dependencies (there aren't many)
 
 ```
 $ git clone https://github.com/noahkrell/rails-react-ideaboard.git
+```
+
+Backend:
+
+```
+$ cd idea-board-app/
 $ cd idea-board-backend/
 $ bundle install
 $ rails server -p 3001 (backend will run on port 3001)
-$ cd ..
+```
+
+Frontend:
+
+```
+$ cd idea-board-app/
 $ cd idea-board-frontend/
 $ npm install
 $ npm start (frontend will run on port 3000)
