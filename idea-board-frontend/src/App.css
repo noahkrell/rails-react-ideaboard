@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  font-family: monospace;
+}
+
+.App-header {
+  background-color: #222;
+  height: 100px;
+  padding: 20px;
+  color: white;
+}
+
+.tile {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  background: #f8e473;
+  float: left;
+  font-size: 11px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.newIdeaButton {
+  background: darkblue;
+  color: white;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px;
+}
